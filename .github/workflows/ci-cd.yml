@@ -30,6 +30,6 @@ jobs:
 
       - name: Deploy
         run: |
-          # Example: deploy to Vercel
+          deploy to Vercel
           npm install -g vercel
           vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
